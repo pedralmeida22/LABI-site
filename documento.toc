@@ -22,10 +22,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.3}Tambor de Mem\IeC {\'o}ria}{5}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}UNISERVO}{5}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.4}UNISERVO}{6}{subsection.3.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.5}IBM 350 Disk Storage Unit}{6}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.5}IBM 350 Disk Storage Unit}{7}{subsection.3.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.6}Cassete}{6}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.6}Cassete}{8}{subsection.3.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{8}{chapter.4}
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{9}{chapter.4}
