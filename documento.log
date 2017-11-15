@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  15 NOV 2017 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  15 NOV 2017 22:17
 entering extended mode
 **./documento.tex
 (documento.tex
@@ -1087,6 +1087,11 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 219.
 
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
@@ -1172,7 +1177,7 @@ edro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm10
 n\ec\dpi600\ecrm1728.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts
 \pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Pedro Almeida\AppData\Loca
 l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk>
-Output written on documento.pdf (15 pages, 490904 bytes).
+Output written on documento.pdf (15 pages, 490909 bytes).
 PDF statistics:
  572 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
