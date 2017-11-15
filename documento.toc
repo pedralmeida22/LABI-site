@@ -28,4 +28,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.6}Cassete}{8}{subsection.3.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{9}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.7}Disquete}{9}{subsection.3.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{10}{chapter.4}
