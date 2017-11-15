@@ -18,4 +18,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Cart\IeC {\~a}o Perfurado}{3}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Tubo de Williams}{3}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{5}{chapter.4}
