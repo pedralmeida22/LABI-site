@@ -22,4 +22,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.3}UNISERVO}{5}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{6}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.4}Tambor de Mem\IeC {\'o}ria}{6}{subsection.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{7}{chapter.4}
