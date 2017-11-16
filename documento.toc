@@ -32,10 +32,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.8}IBM 3380}{11}{subsection.3.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.9}IBM 3380}{11}{subsection.3.1.9}
+\contentsline {subsection}{\numberline {3.1.9}ST-506}{12}{subsection.3.1.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.10}ST-506}{12}{subsection.3.1.10}
+\contentsline {subsection}{\numberline {3.1.10}Digital Audio Tape}{13}{subsection.3.1.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.11}CD-R}{13}{subsection.3.1.11}
+\contentsline {subsection}{\numberline {3.1.11}CD-R}{14}{subsection.3.1.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{14}{chapter.4}
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{15}{chapter.4}
