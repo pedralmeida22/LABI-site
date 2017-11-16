@@ -38,4 +38,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.11}CD-R}{14}{subsection.3.1.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{15}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.12}MiniDisc Data}{15}{subsection.3.1.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{16}{chapter.4}
