@@ -50,4 +50,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.19}Cloud Storage}{24}{section.3.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{26}{chapter.4}
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es Finais}{26}{chapter.4}

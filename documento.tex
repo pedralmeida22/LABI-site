@@ -78,7 +78,12 @@
 
 %%%%%% RESUMO %%%%%%
 \begin{abstract}
-Resumo de 200-300 palavras.
+
+	Os sistemas de armazenamento de dados provêm da necessidade do ser humano produzir e guardar informação para fins industriais a princípio, contudo a ambição do homem levou a que estes dispositivos evoluíssem de maneira tal a que hoje em dia sejam responsáveis pela manutenção de informação importante e essencial à continua evolução do mundo tecnológico e todo o que este engloba.
+	Os dispositivos evoluíram ao longo da história, sendo protagonistas desta evolução variadas pessoas e empresas. Começaram por ter um formato simples e direto, adequado à necessidade da altura, e a partir de então adaptaram-se a diferentes situações e tecnologias, aumentado o seu armazenamento e mudando a sua estética. 
+	Uma das vertentes da tecnologia, é que esta pode ter diferentes níveis de aceitação para diferentes produtos, influenciando assim o desenvolvimento dos mesmos. No caso dos dispositivos de armazenamento de dados, estes receberam um elevado nível de aceitação, levando assim ao seu elevado desenvolvimento, estando hoje em dia presentes na maior parte dos nossos produtos informáticos, sejam computadores, smartphones, câmaras e até mesmo relógios.
+	Os dados são memorizados na forma de código binário, assim tem sido desde o primeiro dispositivo, e assim permaneceu até os dias de hoje. Os dispositivos aqui apresentados possuem algumas semelhanças e diferenças aquando do processo de armazenamento, porém estes são descritos e explicados, sendo possível assim estabelecer uma relação entre eles.
+
 \end{abstract}
 
 %%%%%% Agradecimentos %%%%%%
@@ -90,8 +95,8 @@ Comentar bloco caso não existam agradecimentos a fazer.
 \end{abstract}
 
 \tableofcontents
-% \listoftables     % descomentar se necessário
-% \listoffigures    % descomentar se necessário
+\listoftables     % descomentar se necessário
+\listoffigures    % descomentar se necessário
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -132,17 +137,12 @@ Descreve os métodos utilizados para obtenção de resultados.
 Neste esqueleto de relatório aproveitamos este capítulo para exemplificar
 como se usam alguns elementos de {\LaTeX}.
 
-\section{Exemplos}
-
-\subsection{Referências bibliográficas}
-Informação relativa à estrutura formal de um relatório pode ser obtida
-na página do \ac{glisc}\cite{glisc}.
-
 \newpage
+
 \chapter{Evolução de Sistemas de Armazenamento de Dados}
 \label{chap.evolucao}
-	\section{Cartão Perfurado}
-
+	\section{Cartão Perfurado}	
+		
 		O Cartão Perfurado(\textit{Punched Card} foi inventado por Joseph-Marie Jacquard em 1804 para o comando automático de teares depois de ter percebido que as mudanças de linhas coloridas e novelos  seguiam uma certa lógica. Deste modo, Jacquard inventou um processo de cartões perfurados que definiam padrões nas lançadeiras e assim o trabalho do tecelão seria trocado para algo "automático". 
 		
 		Os cartões perfurados contêm informações digitais representadas pela presença ou falta de furos em posições predefinidas. O método foi interessante para codificar as informações e do ano 1900 a 1950, foram o principal meio de entrada de dados, armazenamento de dados e processamento na computação institucional, tudo pela mão da \ac{ibm}. 
@@ -164,9 +164,9 @@ na página do \ac{glisc}\cite{glisc}.
 	No seu processo de armazenamento de informação, um eletrão percorre sucessivas linhas na face do tubo, marcando com pontos ou traços de carga elétrica florescente na placa representando assim os uns e os zeros do código binário.
 	
 	Os primeiros computadores utilizavam este tipo de memória de tubos de raios catódicos (feixes de eletrões), díodo-condensador (mantém a corrente a circular apenas num sentido) e também as memórias de linha de retardo que consistiam num tubo de aproximadamente 150 cm de comprimento contendo mercúrio, com um cristal de quartzo em cada ponta onde os dados a armazenar passavam pelo mercúrio na forma de vibrações mecânicas e eram reconvertidos na outra ponta.
-\\
+\vspace{10mm}
 
-	\begin{figure}[b]
+	\begin{figure}[h]
 		\centering
 		\includegraphics[width=5cm, height=3cm]{williamstube.jpg}
 		\caption{Tube de Williams}
@@ -179,10 +179,11 @@ na página do \ac{glisc}\cite{glisc}.
 		 O tambor magnético é constituído por um cilindro de revolução metálico que roda em torno de um eixo vertical e o movimento é assegurado por um motor elétrico. Um conjunto de cabeças fixas assegura a gravação e a leitura da informação
 		 
 		 A capacidade de armazenamento do tambor de memória original tinha uma capacidade de cerca de 500,000 bits. Este sistema de armazenamento de dados foi especialmente importante pois, no início da década de 60 passaram a utilizar-se na construção de computadores com memórias não voláteis, isto é, não perde a informação guardada depois de desligar a fonte de energia. Estas memórias eram construídas com ferrites e marcam um grande avanço tecnológico na área do armazenamento de dados.
+\vspace{30mm}	
 	
-	\begin{figure}[b]
+	\begin{figure}[h]
 		\centering
-		\includegraphics[width=3cm, height=4cm]{tambordememoria.jpg}
+		\includegraphics[width=4cm, height=6cm]{tambordememoria.jpg}
 		\caption{Tambor de Memória}
 		\end{figure}
 
@@ -314,7 +315,9 @@ na página do \ac{glisc}\cite{glisc}.
 		
 		\section{IBM 3380}	
 	O IBM 3380 \ac{dasd} foi anunciado em Junho de 1980 pela IBM. Foi desenvolvido pela Universidade de Auckland e foi o primeiro dispositivo de armazenamento a atingir o território do Gigabyte, ficando ,assim, na história por esse mesmo feito.
-	\vspace{1mm}
+		
+	O IBM 3380 \textit{Direct Access Storage Device}  foi anunciado em Junho de 1980 pela IBM. Foi desenvolvido pela Universidade de Auckland e foi o primeiro dispositivo de armazenamento a atingir o território do Gigabyte, ficando ,assim, na história por esse mesmo feito.
+\vspace{1mm}
 	
 	Os vários modelos da série 3380 ((A4, A4F, AA4, AAF, B4 e BF4), eram uma apenas uma solução de armazenamento de dados, não eram o próprio computador. Todos esses modelos usavam duas \textit{hard drives} com cerca de 1.26 \ac{gb} cada, perfazendo, assim, um total de 2.52 GB. Tinha uma taxa de 3 \ac{mb} por segundo de transferência de dados. O tempo médio de acesso era de 16 ms (milissegundos). O seu peso era de aproximadamente 29 kg. 
 \vspace{1mm}
@@ -492,12 +495,8 @@ Tinha uma capacidade de 140 \ac{mb} armazenamento.
 	\end{figure}
 
 \newpage
-
 		
-		
-		\section{IBM DiskOnKey}
-		\label{IBM DiskonKey}
-		
+		\section{IBM DiskOnKey}	
 		
 		Em 2000, a \textit{M-Systems} e a \ac{ibm} apresentaram a \textit{IBM DiskOnKey}, também conhecida como \textit{USB drive}. A primeira unidade de armazenamento portátil que cabe num bolso e foi também a primeira unidade de armazenamento \textit{flash}  (armazenamento explicado mais à frente aquando dos cartões SD) comercializada.
 \vspace{3mm}		
@@ -506,9 +505,9 @@ Tinha uma capacidade de 140 \ac{mb} armazenamento.
 \vspace{3mm}
 	
 	Os componentes internos de uma PEN estão tipicamente protegidos por um invólucro de plástico ou metal, o que o torna resistente para ser transportado num bolso. Assim, apenas o conector USB fica exposto, que muitas vezes é retrátil ou protegido por uma capa, o que torna o \textit{USB drive} bastante fiável.
-\vspace{3mm}
 
 \vspace{10mm}
+
 	\begin{figure} [h]
 		\centering
 		\includegraphics[scale=0.2]{pen.jpg}
@@ -517,6 +516,7 @@ Tinha uma capacidade de 140 \ac{mb} armazenamento.
 
 \newpage
 	Na memória \textit{flash} a célula é composta por duas partes principais: o \textit{control gate} (também chamado de controlador) e o \textit{floating gate}. O controlador é a parte mais externa, que realiza a comunicação da memória com o computador e é responsável por ativar a célula. Os dados em si ficam armazenados no \textit{floating gate}, que por sua vez é isolado por duas camadas de óxido de silício dotadas de carga negativa.
+	
 	Para armazenar dados, uma carga elétrica é aplicada ao controlador. A tensão "empurra" alguns eletrões para o \textit{floating gate}, onde estes permanecem por causa das camadas de óxido. Quando a capacidade de carga ultrapassa os 50\%, é traduzido num "1", ao acontecer o contrário é traduzido "0". Enquanto uma nova carga não é aplicada, o conteúdo do \textit{floating gate} permanece inalterado, fazendo com que os dados possam ser lidos inúmeras vezes.
 \vspace{1mm}
 
@@ -645,23 +645,22 @@ Todas estas características fazem com que o \textit{Cloud Storage} tenha vindo 
 		\includegraphics[scale=0.5]{cloud-storage2.png}
 		\caption{Alguns dispositivos que podem usar Cloud Storage}
 	\end{figure}
-
-	
-		
 	
 %\chapter{Análise}
 %\label{chap.analise}
 %Analisa os resultados.
 
-\chapter{Conclusões}
+\chapter{Conclusões Finais}
 \label{chap.conclusao}
-Apresenta conclusões.
 
+	Os dispositivos de armazenamento de dados são necessários para o nosso dia a dia cada vez mais, seja a nível profissional ou para fins de lazer. Sendo o seu uso tão necessário, é trivial que estes tendam a evoluir em todos os aspetos possíveis, seja a nível dimensional, velocidade de acesso e nos seus métodos de gravação. Sendo assim, e com os olhos colocados no futuro, é esperado uma otimização nestes sistemas levada ao extremo, com dispositivos que cabem na palma da nossa mão, moveis e com maior capacidade de armazenamento que os dispositivos do nosso presente.
+
+ 
 \chapter*{Contribuições dos autores}
-Resumir aqui o que cada autor fez no trabalho.
-Usar abreviaturas para identificar os autores,
-por exemplo AS para António Silva.
-No fim indicar a percentagem de contribuição de cada autor.
+completar amanha
+
+Afonso Cardoso - 50 \%
+Pedro Almeida -50 \%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter*{Acrónimos}
