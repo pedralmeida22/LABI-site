@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  17 NOV 2017 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  17 NOV 2017 16:53
 entering extended mode
 **./documento.tex
 (documento.tex
@@ -906,7 +906,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-<ua.pdf, id=107, pagebox=cropbox, 52.195pt x 55.20625pt>
+<ua.pdf, id=111, pagebox=cropbox, 52.195pt x 55.20625pt>
 File: ua.pdf Graphic file (type pdf)
 <use ua.pdf>
 Package pdftex.def Info: ua.pdf  used on input line 51. on input line 51.
@@ -959,15 +959,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout6 = `documento.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 98.
+(babel)             in language append on input line 93.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 98.
+(babel)             in language append on input line 93.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 \clearpage
-                [1
+l.93 \listoftables
+                       % descomentar se necessário [1
+
+] (documento.lot)
+\tf@lot=\write7
+\openout7 = `documento.lot'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 94.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 94.
+
+[2
+
+] (documento.lof)
+\tf@lof=\write8
+\openout8 = `documento.lof'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 98.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 98.
+ [3
 
 ]
 Cap\'{\i }tulo 1.
@@ -1027,345 +1048,371 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 154.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 155.
-<cartaoperfurado.jpg, id=190, 428.35031pt x 566.115pt>
+<cartaoperfurado.jpg, id=257, 428.35031pt x 566.115pt>
 File: cartaoperfurado.jpg Graphic file (type jpg)
 <use cartaoperfurado.jpg>
-Package pdftex.def Info: cartaoperfurado.jpg  used on input line 164. on input 
-line 164.
+Package pdftex.def Info: cartaoperfurado.jpg  used on input line 165. on input 
+line 165.
 Package pdftex.def Info: Requested size: 85.3548pt x 113.80838pt on input line 
-164.
+165.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 167.
+(babel)             in language append on input line 168.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 167.
+(babel)             in language append on input line 168.
 [3
 
  <./cartaoperfurado.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 169.
+(babel)             in language append on input line 170.
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
-<williamstube.jpg, id=196, 562.1pt x 290.08376pt>
+<williamstube.jpg, id=262, 562.1pt x 290.08376pt>
 File: williamstube.jpg Graphic file (type jpg)
 <use williamstube.jpg>
-Package pdftex.def Info: williamstube.jpg  used on input line 181. on input lin
-e 181.
+Package pdftex.def Info: williamstube.jpg  used on input line 182. on input lin
+e 182.
 Package pdftex.def Info: Requested size: 142.25719pt x 85.35707pt on input line
- 181.
+ 182.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 184.
+(babel)             in language append on input line 185.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 184.
+(babel)             in language append on input line 185.
 [4 <./williamstube.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 187.
-<tambordememoria.jpg, id=202, 562.1pt x 601.24625pt>
+(babel)             in language append on input line 188.
+<tambordememoria.jpg, id=267, 562.1pt x 601.24625pt>
 File: tambordememoria.jpg Graphic file (type jpg)
 <use tambordememoria.jpg>
-Package pdftex.def Info: tambordememoria.jpg  used on input line 195. on input 
-line 195.
+Package pdftex.def Info: tambordememoria.jpg  used on input line 196. on input 
+line 196.
 Package pdftex.def Info: Requested size: 85.35774pt x 113.80678pt on input line
- 195.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 199.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 199.
- [5 <./tambordememoria.jpg>]
+ 196.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 200.
-<uniservo.jpg, id=208, 602.25pt x 903.375pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 200.
+ [5 <./tambordememoria.jpg>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 201.
+<uniservo.jpg, id=272, 602.25pt x 903.375pt>
 File: uniservo.jpg Graphic file (type jpg)
 <use uniservo.jpg>
-Package pdftex.def Info: uniservo.jpg  used on input line 215. on input line 21
-5.
+Package pdftex.def Info: uniservo.jpg  used on input line 216. on input line 21
+6.
 Package pdftex.def Info: Requested size: 133.7268pt x 199.17043pt on input line
- 215.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 219.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 219.
- [6 <./uniservo.jpg>]
+ 216.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 220.
-<RAMAC.jpg, id=214, 451.6875pt x 295.85532pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 220.
+ [6 <./uniservo.jpg>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 221.
+<RAMAC.jpg, id=278, 451.6875pt x 295.85532pt>
 File: RAMAC.jpg Graphic file (type jpg)
 <use RAMAC.jpg>
-Package pdftex.def Info: RAMAC.jpg  used on input line 235. on input line 235.
+Package pdftex.def Info: RAMAC.jpg  used on input line 236. on input line 236.
 Package pdftex.def Info: Requested size: 170.71947pt x 113.81209pt on input lin
-e 235.
+e 236.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 239.
+(babel)             in language append on input line 240.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 239.
+(babel)             in language append on input line 240.
 
 [7 <./RAMAC.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 241.
-<cassete.jpg, id=220, 451.6875pt x 276.03125pt>
+(babel)             in language append on input line 242.
+<cassete.jpg, id=283, 451.6875pt x 276.03125pt>
 File: cassete.jpg Graphic file (type jpg)
 <use cassete.jpg>
-Package pdftex.def Info: cassete.jpg  used on input line 261. on input line 261
+Package pdftex.def Info: cassete.jpg  used on input line 262. on input line 262
 .
 Package pdftex.def Info: Requested size: 233.03174pt x 142.26929pt on input lin
-e 261.
+e 262.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 265.
+(babel)             in language append on input line 266.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 265.
+(babel)             in language append on input line 266.
  [8 <./cassete.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 267.
+(babel)             in language append on input line 268.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 309.
+(babel)             in language append on input line 310.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 309.
+(babel)             in language append on input line 310.
  [9]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 312.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 313.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 312.
-<disquete.jpg, id=232, 180.675pt x 87.4467pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 313.
+<disquete.jpg, id=292, 180.675pt x 87.4467pt>
 File: disquete.jpg Graphic file (type jpg)
 <use disquete.jpg>
-Package pdftex.def Info: disquete.jpg  used on input line 318. on input line 31
-8.
+Package pdftex.def Info: disquete.jpg  used on input line 319. on input line 31
+9.
 Package pdftex.def Info: Requested size: 180.67455pt x 87.44647pt on input line
- 318.
+ 319.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 322.
+(babel)             in language append on input line 323.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 322.
+(babel)             in language append on input line 323.
  [10 <./disquete.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 324.
-<ibm3380.jpg, id=239, 2337.73375pt x 1711.39375pt>
+(babel)             in language append on input line 325.
+<ibm3380.jpg, id=298, 2337.73375pt x 1711.39375pt>
 File: ibm3380.jpg Graphic file (type jpg)
 <use ibm3380.jpg>
-Package pdftex.def Info: ibm3380.jpg  used on input line 340. on input line 340
+Package pdftex.def Info: ibm3380.jpg  used on input line 342. on input line 342
 .
 Package pdftex.def Info: Requested size: 163.65808pt x 119.8098pt on input line
- 340.
+ 342.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 344.
+(babel)             in language append on input line 346.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 344.
+(babel)             in language append on input line 346.
 
 [11 <./ibm3380.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 346.
-<st-506.jpg, id=245, 562.1pt x 389.455pt>
+(babel)             in language append on input line 348.
+<st-506.jpg, id=303, 562.1pt x 389.455pt>
 File: st-506.jpg Graphic file (type jpg)
 <use st-506.jpg>
-Package pdftex.def Info: st-506.jpg  used on input line 365. on input line 365.
+Package pdftex.def Info: st-506.jpg  used on input line 367. on input line 367.
 
 Package pdftex.def Info: Requested size: 168.6313pt x 116.83739pt on input line
- 365.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 368.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 368.
- [12 <./st-506.jpg>]
+ 367.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 370.
-<dat.jpg, id=251, 451.6875pt x 162.90863pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 370.
+ [12 <./st-506.jpg>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 372.
+<dat.jpg, id=309, 451.6875pt x 162.90863pt>
 File: dat.jpg Graphic file (type jpg)
 <use dat.jpg>
-Package pdftex.def Info: dat.jpg  used on input line 380. on input line 380.
+Package pdftex.def Info: dat.jpg  used on input line 382. on input line 382.
 Package pdftex.def Info: Requested size: 135.5073pt x 48.87296pt on input line 
-380.
+382.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 384.
+(babel)             in language append on input line 386.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 384.
+(babel)             in language append on input line 386.
  [13 <./dat.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 387.
-<cd-r.jpg, id=257, 361.35pt x 301.125pt>
+(babel)             in language append on input line 389.
+<cd-r.jpg, id=314, 361.35pt x 301.125pt>
 File: cd-r.jpg Graphic file (type jpg)
 <use cd-r.jpg>
-Package pdftex.def Info: cd-r.jpg  used on input line 400. on input line 400.
+Package pdftex.def Info: cd-r.jpg  used on input line 402. on input line 402.
 Package pdftex.def Info: Requested size: 144.53743pt x 120.44786pt on input lin
-e 400.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 404.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 404.
- [14 <./cd-r.jpg>]
+e 402.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 406.
-<MD_data.jpg, id=264, 614.295pt x 501.875pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 406.
+ [14 <./cd-r.jpg>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 408.
+<MD_data.jpg, id=319, 614.295pt x 501.875pt>
 File: MD_data.jpg Graphic file (type jpg)
 <use MD_data.jpg>
-Package pdftex.def Info: MD_data.jpg  used on input line 422. on input line 422
+Package pdftex.def Info: MD_data.jpg  used on input line 424. on input line 424
 .
 Package pdftex.def Info: Requested size: 245.71364pt x 200.74643pt on input lin
-e 422.
+e 424.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 426.
+(babel)             in language append on input line 428.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 426.
+(babel)             in language append on input line 428.
 
 [15 <./MD_data.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 428.
-<zipdrive.jpg, id=270, 301.125pt x 301.125pt>
+(babel)             in language append on input line 430.
+<zipdrive.jpg, id=324, 301.125pt x 301.125pt>
 File: zipdrive.jpg Graphic file (type jpg)
 <use zipdrive.jpg>
-Package pdftex.def Info: zipdrive.jpg  used on input line 447. on input line 44
-7.
+Package pdftex.def Info: zipdrive.jpg  used on input line 449. on input line 44
+9.
 Package pdftex.def Info: Requested size: 150.56212pt x 150.56212pt on input lin
-e 447.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 451.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 451.
- [16 <./zipdrive.jpg>]
+e 449.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 453.
-<barracuda.jpg, id=276, 289.08pt x 192.9609pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 453.
+ [16 <./zipdrive.jpg>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 455.
+<barracuda.jpg, id=329, 289.08pt x 192.9609pt>
 File: barracuda.jpg Graphic file (type jpg)
 <use barracuda.jpg>
-Package pdftex.def Info: barracuda.jpg  used on input line 469. on input line 4
-69.
+Package pdftex.def Info: barracuda.jpg  used on input line 471. on input line 4
+71.
 Package pdftex.def Info: Requested size: 202.35461pt x 135.0717pt on input line
- 469.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 473.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 473.
- [17 <./barracuda.jpg>]
+ 471.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 475.
-<microdrive.jpg, id=282, 622.325pt x 351.3125pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 475.
+ [17 <./barracuda.jpg>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 477.
+<microdrive.jpg, id=334, 622.325pt x 351.3125pt>
 File: microdrive.jpg Graphic file (type jpg)
 <use microdrive.jpg>
-Package pdftex.def Info: microdrive.jpg  used on input line 499. on input line 
-499.
+Package pdftex.def Info: microdrive.jpg  used on input line 501. on input line 
+501.
 Package pdftex.def Info: Requested size: 186.69893pt x 105.39455pt on input lin
-e 499.
+e 501.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 503.
+(babel)             in language append on input line 505.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 503.
+(babel)             in language append on input line 505.
  [18 <./microdrive.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 507.
-<pen.jpg, id=289, 1003.75pt x 647.41875pt>
+(babel)             in language append on input line 509.
+<pen.jpg, id=340, 1003.75pt x 647.41875pt>
 File: pen.jpg Graphic file (type jpg)
 <use pen.jpg>
-Package pdftex.def Info: pen.jpg  used on input line 524. on input line 524.
+Package pdftex.def Info: pen.jpg  used on input line 526. on input line 526.
 Package pdftex.def Info: Requested size: 200.74644pt x 129.48145pt on input lin
-e 524.
+e 526.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 528.
+(babel)             in language append on input line 530.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 528.
+(babel)             in language append on input line 530.
  [19 <./pen.jpg>]
-<flash.jpg, id=295, 417.05812pt x 235.63031pt>
+<flash.jpg, id=345, 417.05812pt x 235.63031pt>
 File: flash.jpg Graphic file (type jpg)
 <use flash.jpg>
-Package pdftex.def Info: flash.jpg  used on input line 535. on input line 535.
+Package pdftex.def Info: flash.jpg  used on input line 537. on input line 537.
 Package pdftex.def Info: Requested size: 166.82028pt x 94.25044pt on input line
- 535.
-<usb_drive.jpg, id=296, 651.43375pt x 377.41pt>
+ 537.
+<usb_drive.jpg, id=346, 651.43375pt x 377.41pt>
 File: usb_drive.jpg Graphic file (type jpg)
 <use usb_drive.jpg>
-Package pdftex.def Info: usb_drive.jpg  used on input line 543. on input line 5
-43.
+Package pdftex.def Info: usb_drive.jpg  used on input line 545. on input line 5
+45.
 Package pdftex.def Info: Requested size: 195.43163pt x 113.22386pt on input lin
-e 543.
+e 545.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 547.
+(babel)             in language append on input line 551.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 547.
+(babel)             in language append on input line 551.
  [20 <./flash.jpg> <./usb_drive.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 549.
-<sdcardsizes.jpg, id=304, 451.6875pt x 112.16907pt>
+(babel)             in language append on input line 553.
+<sdcardsizes.jpg, id=351, 451.6875pt x 112.16907pt>
 File: sdcardsizes.jpg Graphic file (type jpg)
 <use sdcardsizes.jpg>
-Package pdftex.def Info: sdcardsizes.jpg  used on input line 556. on input line
- 556.
+Package pdftex.def Info: sdcardsizes.jpg  used on input line 560. on input line
+ 560.
 Package pdftex.def Info: Requested size: 271.01459pt x 67.30194pt on input line
- 556.
-<sdcard.jpg, id=305, 279.444pt x 285.2256pt>
+ 560.
+<sdcard.jpg, id=352, 279.444pt x 285.2256pt>
 File: sdcard.jpg Graphic file (type jpg)
 <use sdcard.jpg>
-Package pdftex.def Info: sdcard.jpg  used on input line 571. on input line 571.
+Package pdftex.def Info: sdcard.jpg  used on input line 575. on input line 575.
 
 Package pdftex.def Info: Requested size: 111.77562pt x 114.08821pt on input lin
-e 571.
+e 575.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 575.
+(babel)             in language append on input line 579.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 575.
+(babel)             in language append on input line 579.
  [21 <./sdcardsizes.jpg> <./sdcard.jpg>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 577.
-<ssd.jpg, id=312, 642.4pt x 481.8pt>
+(babel)             in language append on input line 581.
+<ssd.jpg, id=357, 642.4pt x 481.8pt>
 File: ssd.jpg Graphic file (type jpg)
 <use ssd.jpg>
-Package pdftex.def Info: ssd.jpg  used on input line 584. on input line 584.
+Package pdftex.def Info: ssd.jpg  used on input line 588. on input line 588.
 Package pdftex.def Info: Requested size: 160.59961pt x 120.44969pt on input lin
-e 584.
+e 588.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 594.
+(babel)             in language append on input line 600.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 594.
+(babel)             in language append on input line 600.
  [22 <./ssd.jpg>]
-<memram.jpg, id=318, 2312.64pt x 1734.48pt>
+<memram.jpg, id=362, 2312.64pt x 1734.48pt>
 File: memram.jpg Graphic file (type jpg)
 <use memram.jpg>
-Package pdftex.def Info: memram.jpg  used on input line 601. on input line 601.
+Package pdftex.def Info: memram.jpg  used on input line 607. on input line 607.
 
-Package pdftex.def Info: Requested size: 138.75241pt x 104.0643pt on input line
- 601.
+Package pdftex.def Info: Requested size: 208.12862pt x 156.09647pt on input lin
+e 607.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 615.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 615.
  [23 <./memram.jpg>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 617.
+<cloud-storage.png, id=367, 602.25pt x 334.24875pt>
+File: cloud-storage.png Graphic file (type png)
+<use cloud-storage.png>
+Package pdftex.def Info: cloud-storage.png  used on input line 630. on input li
+ne 630.
+Package pdftex.def Info: Requested size: 240.89572pt x 133.69713pt on input lin
+e 630.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 636.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 636.
+ [24 <./cloud-storage.png>]
+<cloud-storage2.png, id=374, 481.8pt x 301.125pt>
+File: cloud-storage2.png Graphic file (type png)
+<use cloud-storage2.png>
+Package pdftex.def Info: cloud-storage2.png  used on input line 659. on input l
+ine 659.
+Package pdftex.def Info: Requested size: 240.8994pt x 150.56212pt on input line
+ 659.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 667.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 667.
+ [25 <./cloud-storage2.png>]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 615.
+(babel)             in language append on input line 667.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 619.
+(babel)             in language append on input line 673.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 619.
-[24
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 626.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 626.
- [25
-
-]
-
-LaTeX Warning: Empty bibliography on input line 636.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 638.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 638.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 638.
+(babel)             in language append on input line 673.
 [26
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 638.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 680.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 680.
+ [27
+
+]
+
+LaTeX Warning: Empty bibliography on input line 690.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 692.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 692.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 692.
+[28
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 692.
  (documento.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 638.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 638.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 692.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 692.
 Package rerunfilecheck Info: File `documento.out' has not changed.
-(rerunfilecheck)             Checksum: 51AD8D4E0214B06A057FCD916242313A;1754.
+(rerunfilecheck)             Checksum: A374BA9A1B68671DD18FE174E26BE2C4;1830.
 
 
 LaTeX Warning: There were undefined references.
@@ -1380,10 +1427,10 @@ Package logreq Info: Writing requests to 'documento.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13718 strings out of 493312
- 224620 string characters out of 3138895
- 666641 words of memory out of 3000000
- 16980 multiletter control sequences out of 15000+200000
+ 13755 strings out of 493312
+ 225159 string characters out of 3138895
+ 666648 words of memory out of 3000000
+ 16989 multiletter control sequences out of 15000+200000
  16316 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,7n,32p,880b,1650s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1402,9 +1449,9 @@ r\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Afonso\AppData\Local\MiKTeX\2.9\fon
 ts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Afonso\AppData\Local\MiK
 TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on documento.pdf (31 pages, 2915241 bytes).
+Output written on documento.pdf (35 pages, 3007814 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 324 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 863 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

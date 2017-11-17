@@ -52,4 +52,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.18}Solid-State Drive (SSD)}{22}{subsection.3.1.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{24}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.19}Cloud Storage}{24}{subsection.3.1.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es Finais}{26}{chapter.4}
