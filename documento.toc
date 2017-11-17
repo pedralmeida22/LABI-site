@@ -44,4 +44,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.14}Seagate Barracuda}{17}{subsection.3.1.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{18}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.15}IBM 170 Microdrive}{18}{subsection.3.1.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{19}{chapter.4}
