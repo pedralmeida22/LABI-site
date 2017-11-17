@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  17 NOV 2017 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  17 NOV 2017 17:52
 entering extended mode
 **./documento.tex
 (documento.tex
@@ -833,7 +833,20 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
 
-(documento.aux)
+(documento.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
 \openout1 = `documento.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -853,17 +866,27 @@ LaTeX Font Info:    ... okay on input line 15.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
+
+Overfull \hbox (37.6836pt too wide) in paragraph at lines 43--15
+[]\T1/cmr/m/n/10 <<<<<<< HEAD    =======             >>>>>>> 3d1be559238acca42f
+869c4cf43371a57522faa9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--15
+
+ []
+
 \openout4 = `documento.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'documento.bbl' found.
- (documento.bbl)
+(documento.bbl)
 Package biblatex Info: Reference section=0 on input line 15.
 Package biblatex Info: Reference segment=0 on input line 15.
 \AtBeginShipoutBox=\box26
 Package hyperref Info: Link coloring OFF on input line 15.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
@@ -881,6 +904,11 @@ LaTeX Info: Redefining \nameref on input line 15.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+Overfull \hbox (4.3617pt too wide) in paragraph at lines 4--13
+[]\T1/cmr/m/n/10 <<<<<<< HEAD ======= >>>>>>> 3d1be559238acca42f869c4cf43371a57
+522faa9
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count314
 \scratchdimen=\dimen110
@@ -906,7 +934,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-<ua.pdf, id=95, pagebox=cropbox, 52.195pt x 55.20625pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 31.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 31.
+ [1
+
+{C:/Users/Pedro Almeida/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<ua.pdf, id=201, pagebox=cropbox, 52.195pt x 55.20625pt>
 File: ua.pdf Graphic file (type pdf)
 <use ua.pdf>
 Package pdftex.def Info: ua.pdf  used on input line 51. on input line 51.
@@ -916,9 +951,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 60.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 60.
- [1
-
-{C:/Users/Afonso/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ua.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \end{titlepage}
+                     [1 <./ua.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -951,9 +989,9 @@ been already used, duplicate ignored
 l.95 \end{abstract}
                     [1] (documento.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
+(Font)              <7> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 11.
+(Font)              <5> on input line 9.
 )
 \tf@toc=\write6
 \openout6 = `documento.toc'.
@@ -1026,7 +1064,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 144.
 Package acronym Info: Label `acro:ibm' newly defined as it shall be overridden
 although it is yet undefined on input line 148.
-<cartaoperfurado.jpg, id=229, 428.35031pt x 566.115pt>
+<cartaoperfurado.jpg, id=334, 428.35031pt x 566.115pt>
 File: cartaoperfurado.jpg Graphic file (type jpg)
 <use cartaoperfurado.jpg>
 Package pdftex.def Info: cartaoperfurado.jpg  used on input line 154. on input 
@@ -1042,7 +1080,7 @@ Package babel Info: Redefining portuges shorthand "|
  <./cartaoperfurado.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 159.
-<williamstube.jpg, id=237, 562.1pt x 290.08376pt>
+<williamstube.jpg, id=342, 562.1pt x 290.08376pt>
 File: williamstube.jpg Graphic file (type jpg)
 <use williamstube.jpg>
 Package pdftex.def Info: williamstube.jpg  used on input line 171. on input lin
@@ -1056,7 +1094,7 @@ Package babel Info: Redefining portuges shorthand "|
  [4 <./williamstube.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 177.
-<tambordememoria.jpg, id=242, 562.1pt x 601.24625pt>
+<tambordememoria.jpg, id=347, 562.1pt x 601.24625pt>
 File: tambordememoria.jpg Graphic file (type jpg)
 <use tambordememoria.jpg>
 Package pdftex.def Info: tambordememoria.jpg  used on input line 186. on input 
@@ -1070,7 +1108,7 @@ Package babel Info: Redefining portuges shorthand "|
  [5 <./tambordememoria.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 192.
-<uniservo.jpg, id=247, 602.25pt x 903.375pt>
+<uniservo.jpg, id=353, 602.25pt x 903.375pt>
 File: uniservo.jpg Graphic file (type jpg)
 <use uniservo.jpg>
 Package pdftex.def Info: uniservo.jpg  used on input line 207. on input line 20
@@ -1087,7 +1125,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package acronym Info: Label `acro:ramac' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 214.
-<RAMAC.jpg, id=260, 451.6875pt x 295.85532pt>
+<RAMAC.jpg, id=365, 451.6875pt x 295.85532pt>
 File: RAMAC.jpg Graphic file (type jpg)
 <use RAMAC.jpg>
 Package pdftex.def Info: RAMAC.jpg  used on input line 227. on input line 227.
@@ -1102,7 +1140,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 233.
 Package acronym Info: Label `acro:kb' newly defined as it shall be overridden
 although it is yet undefined on input line 234.
-<cassete.jpg, id=268, 451.6875pt x 276.03125pt>
+<cassete.jpg, id=373, 451.6875pt x 276.03125pt>
 File: cassete.jpg Graphic file (type jpg)
 <use cassete.jpg>
 Package pdftex.def Info: cassete.jpg  used on input line 253. on input line 253
@@ -1121,26 +1159,20 @@ although it is yet undefined on input line 260.
 Package acronym Info: Label `acro:cd-rom' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 269.
-
-
-Package acronym Warning: Acronym `cd-rom' is not defined on input line 269.
-
-
-Package acronym Warning: Acronym `cd-rom' is not defined on input line 269.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 301.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 301.
-[9]
+ [9]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 304.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 304.
-<disquete.jpg, id=285, 180.675pt x 87.4467pt>
+<disquete.jpg, id=392, 180.675pt x 87.4467pt>
 File: disquete.jpg Graphic file (type jpg)
 <use disquete.jpg>
 Package pdftex.def Info: disquete.jpg  used on input line 310. on input line 31
@@ -1161,7 +1193,7 @@ Package acronym Info: Label `acro:gb' newly defined as it shall be overridden
 although it is yet undefined on input line 322.
 Package acronym Info: Label `acro:mb' newly defined as it shall be overridden
 although it is yet undefined on input line 322.
-<ibm3380.jpg, id=295, 2337.73375pt x 1711.39375pt>
+<ibm3380.jpg, id=402, 2337.73375pt x 1711.39375pt>
 File: ibm3380.jpg Graphic file (type jpg)
 <use ibm3380.jpg>
 Package pdftex.def Info: ibm3380.jpg  used on input line 334. on input line 334
@@ -1172,12 +1204,13 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 338.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 338.
- [11 <./ibm3380.jpg>]
+
+[11 <./ibm3380.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 340.
 Package acronym Info: Label `acro:mfm' newly defined as it shall be overridden
 although it is yet undefined on input line 345.
-<st-506.jpg, id=309, 562.1pt x 389.455pt>
+<st-506.jpg, id=417, 562.1pt x 389.455pt>
 File: st-506.jpg Graphic file (type jpg)
 <use st-506.jpg>
 Package pdftex.def Info: st-506.jpg  used on input line 359. on input line 359.
@@ -1193,7 +1226,20 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 364.
 Package acronym Info: Label `acro:dat' newly defined as it shall be overridden
 although it is yet undefined on input line 365.
-<dat.jpg, id=320, 451.6875pt x 162.90863pt>
+
+
+Package acronym Warning: Acronym `dat' is not defined on input line 365.
+
+
+Package acronym Warning: Acronym `dat' is not defined on input line 365.
+
+
+Package acronym Warning: Acronym `dat' is not defined on input line 366.
+
+
+Package acronym Warning: Acronym `dat' is not defined on input line 368.
+
+<dat.jpg, id=424, 451.6875pt x 162.90863pt>
 File: dat.jpg Graphic file (type jpg)
 <use dat.jpg>
 Package pdftex.def Info: dat.jpg  used on input line 374. on input line 374.
@@ -1203,7 +1249,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 378.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 378.
- [13 <./dat.jpg>]
+[13 <./dat.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 381.
 Package acronym Info: Label `acro:cd-r' newly defined as it shall be overridden
@@ -1239,7 +1285,7 @@ Package acronym Warning: Acronym `cd' is not defined on input line 389.
 
 Package acronym Warning: Acronym `cd-r' is not defined on input line 389.
 
-<cd-r.jpg, id=328, 361.35pt x 301.125pt>
+<cd-r.jpg, id=431, 361.35pt x 301.125pt>
 File: cd-r.jpg Graphic file (type jpg)
 <use cd-r.jpg>
 Package pdftex.def Info: cd-r.jpg  used on input line 394. on input line 394.
@@ -1254,7 +1300,17 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 400.
 Package acronym Info: Label `acro:md' newly defined as it shall be overridden
 although it is yet undefined on input line 401.
-<MD_data.jpg, id=339, 614.295pt x 501.875pt>
+
+
+Package acronym Warning: Acronym `md' is not defined on input line 401.
+
+
+Package acronym Warning: Acronym `md' is not defined on input line 401.
+
+
+Package acronym Warning: Acronym `md' is not defined on input line 404.
+
+<MD_data.jpg, id=440, 614.295pt x 501.875pt>
 File: MD_data.jpg Graphic file (type jpg)
 <use MD_data.jpg>
 Package pdftex.def Info: MD_data.jpg  used on input line 416. on input line 416
@@ -1265,10 +1321,10 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 420.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 420.
- [15 <./MD_data.jpg>]
+[15 <./MD_data.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 422.
-<zipdrive.jpg, id=347, 301.125pt x 301.125pt>
+<zipdrive.jpg, id=447, 301.125pt x 301.125pt>
 File: zipdrive.jpg Graphic file (type jpg)
 <use zipdrive.jpg>
 Package pdftex.def Info: zipdrive.jpg  used on input line 441. on input line 44
@@ -1282,7 +1338,7 @@ Package babel Info: Redefining portuges shorthand "|
  [16 <./zipdrive.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 447.
-<barracuda.jpg, id=352, 289.08pt x 192.9609pt>
+<barracuda.jpg, id=452, 289.08pt x 192.9609pt>
 File: barracuda.jpg Graphic file (type jpg)
 <use barracuda.jpg>
 Package pdftex.def Info: barracuda.jpg  used on input line 463. on input line 4
@@ -1296,7 +1352,7 @@ Package babel Info: Redefining portuges shorthand "|
  [17 <./barracuda.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 469.
-<microdrive.jpg, id=357, 622.325pt x 351.3125pt>
+<microdrive.jpg, id=458, 622.325pt x 351.3125pt>
 File: microdrive.jpg Graphic file (type jpg)
 <use microdrive.jpg>
 Package pdftex.def Info: microdrive.jpg  used on input line 493. on input line 
@@ -1310,7 +1366,7 @@ Package babel Info: Redefining portuges shorthand "|
  [18 <./microdrive.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 499.
-<pen.jpg, id=364, 1003.75pt x 647.41875pt>
+<pen.jpg, id=464, 1003.75pt x 647.41875pt>
 File: pen.jpg Graphic file (type jpg)
 <use pen.jpg>
 Package pdftex.def Info: pen.jpg  used on input line 513. on input line 513.
@@ -1321,13 +1377,13 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 517.
  [19 <./pen.jpg>]
-<flash.jpg, id=369, 417.05812pt x 235.63031pt>
+<flash.jpg, id=469, 417.05812pt x 235.63031pt>
 File: flash.jpg Graphic file (type jpg)
 <use flash.jpg>
 Package pdftex.def Info: flash.jpg  used on input line 525. on input line 525.
 Package pdftex.def Info: Requested size: 166.82028pt x 94.25044pt on input line
  525.
-<usb_drive.jpg, id=371, 651.43375pt x 377.41pt>
+<usb_drive.jpg, id=471, 651.43375pt x 377.41pt>
 File: usb_drive.jpg Graphic file (type jpg)
 <use usb_drive.jpg>
 Package pdftex.def Info: usb_drive.jpg  used on input line 533. on input line 5
@@ -1343,14 +1399,21 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 539.
 Package acronym Info: Label `acro:sd' newly defined as it shall be overridden
 although it is yet undefined on input line 541.
-<sdcardsizes.jpg, id=378, 451.6875pt x 112.16907pt>
+
+
+Package acronym Warning: Acronym `sd' is not defined on input line 541.
+
+
+Package acronym Warning: Acronym `sd' is not defined on input line 541.
+
+<sdcardsizes.jpg, id=477, 451.6875pt x 112.16907pt>
 File: sdcardsizes.jpg Graphic file (type jpg)
 <use sdcardsizes.jpg>
 Package pdftex.def Info: sdcardsizes.jpg  used on input line 546. on input line
  546.
 Package pdftex.def Info: Requested size: 271.01459pt x 67.30194pt on input line
  546.
-<sdcard.jpg, id=379, 279.444pt x 285.2256pt>
+<sdcard.jpg, id=478, 279.444pt x 285.2256pt>
 File: sdcard.jpg Graphic file (type jpg)
 <use sdcard.jpg>
 Package pdftex.def Info: sdcard.jpg  used on input line 561. on input line 561.
@@ -1361,12 +1424,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 565.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 565.
- [21 <./sdcardsizes.jpg> <./sdcard.jpg>]
+[21 <./sdcardsizes.jpg> <./sdcard.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 567.
 Package acronym Info: Label `acro:ram' newly defined as it shall be overridden
 although it is yet undefined on input line 569.
-<ssd.jpg, id=389, 642.4pt x 481.8pt>
+<ssd.jpg, id=487, 642.4pt x 481.8pt>
 File: ssd.jpg Graphic file (type jpg)
 <use ssd.jpg>
 Package pdftex.def Info: ssd.jpg  used on input line 574. on input line 574.
@@ -1377,7 +1440,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 586.
  [22 <./ssd.jpg>]
-<memram.jpg, id=404, 2312.64pt x 1734.48pt>
+<memram.jpg, id=502, 2312.64pt x 1734.48pt>
 File: memram.jpg Graphic file (type jpg)
 <use memram.jpg>
 Package pdftex.def Info: memram.jpg  used on input line 593. on input line 593.
@@ -1391,7 +1454,7 @@ Package babel Info: Redefining portuges shorthand "|
  [23 <./memram.jpg>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 603.
-<cloud-storage.png, id=410, 602.25pt x 334.24875pt>
+<cloud-storage.png, id=509, 602.25pt x 334.24875pt>
 File: cloud-storage.png Graphic file (type png)
 <use cloud-storage.png>
 Package pdftex.def Info: cloud-storage.png  used on input line 616. on input li
@@ -1402,8 +1465,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 622.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 622.
- [24 <./cloud-storage.png>]
-<cloud-storage2.png, id=417, 481.8pt x 301.125pt>
+
+[24 <./cloud-storage.png>]
+<cloud-storage2.png, id=515, 481.8pt x 301.125pt>
 File: cloud-storage2.png Graphic file (type png)
 <use cloud-storage2.png>
 Package pdftex.def Info: cloud-storage2.png  used on input line 645. on input l
@@ -1448,36 +1512,127 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 692.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 692.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 692.
 Package rerunfilecheck Info: File `documento.out' has not changed.
-(rerunfilecheck)             Checksum: C3F3931CC56195DA6E961ED3F84D9A94;1408.
+(rerunfilecheck)             Checksum: ED60C02BDED3D8C2D4967C0AF16EAAAA;3293.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                documento
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'documento.run.xml'.
 \openout1 = `documento.run.xml'.
 
+
+Overfull \hbox (37.6836pt too wide) in paragraph at lines 43--692
+[]\T1/cmr/m/n/10 <<<<<<< HEAD    =======             >>>>>>> 3d1be559238acca42f
+869c4cf43371a57522faa9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--692
+
+ []
+
  ) 
 Here is how much of TeX's memory you used:
- 13660 strings out of 493312
- 222131 string characters out of 3138895
- 667632 words of memory out of 3000000
- 16875 multiletter control sequences out of 15000+200000
+ 13717 strings out of 493312
+ 223257 string characters out of 3138872
+ 667683 words of memory out of 3000000
+ 16905 multiletter control sequences out of 15000+200000
  15540 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,7n,32p,880b,1673s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Afonso\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1440.pk> <C:\Users\Afonso\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm0700.pk> <C:\Users\Afonso\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Afonso\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Afonso\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Afonso\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\
-Afonso\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
- <C:\Users\Afonso\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-crm1000.pk> <C:\Users\Afonso\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1728.pk> <C:\Users\Afonso\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Afonso\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on documento.pdf (35 pages, 3005708 bytes).
+ 35i,7n,32p,880b,1665s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{cd-rom} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.19} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.18} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.17} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.16} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.15} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.14} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.13} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.12} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.11} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.10} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
+pi600\ecbx1440.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Pedro Almeida\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Us
+ers\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+cbx1000.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecrm1200.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Pedro Almeida\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Ped
+ro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440
+.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm2488.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "C:\Users\Pedro Almeida\Desktop\LaBi\GIT\labi2017-t2g7\build\
+documento.pdf" (36 pages, 3017192 bytes).
 PDF statistics:
- 876 PDF objects out of 1000 (max. 8388607)
- 125 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 993 PDF objects out of 1000 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
 
