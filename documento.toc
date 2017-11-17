@@ -48,6 +48,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.16}IBM DiskOnKey}{19}{subsection.3.1.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.17}SD Card}{20}{subsection.3.1.17}
+\contentsline {subsection}{\numberline {3.1.17}SD Card}{21}{subsection.3.1.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{22}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.18}Solid-State Drive (SSD)}{22}{subsection.3.1.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{24}{chapter.4}
