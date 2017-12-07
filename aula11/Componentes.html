@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Componentes</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap minified CSS -->
+
+		<link rel="stylesheet"
+		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet"
+
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+		<!-- jQuery library -->
+
+		<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script
+		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<script type="text/javascript"
+		src="http://code.highcharts.com/highcharts.js"></script>
+
+
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css">
+		<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+		
+	</head>
+	
+	<body>
+		
+		
+		<div class="container">
+		
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">LABI</a>
+				</div>
+				
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#topicoA">TópicoA</a></li>
+						<li><a href="#topicoB">TópicoB</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								TópicoC<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#topicoC1">Opção1</a></li>
+								<li class="divider"></li>
+								<li><a href="#topicoC2">Opção2</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Default</a></li>
+					</ul>
+				</div>
+			
+				
+			
+			</nav>
+		
+		(Conteúdo da página.)
+		
+		<h2 id="topicoA">Este é o Tópico A
+		
+		<br/>
+		
+		aananananananannanana.
+		</h2>
+		
+		<br/> <br/> <br/> <br/>
+		
+		<h2 id="topicoB">Este é o Tópico B
+		
+		<br/>
+		
+		bobobobooboboboboobo.
+		
+		</h2>
+		
+		<br/> <br/> <br/> <br/>
+		
+		<h2 id="topicoC1">Este é o Tópico C, Opção 1
+		
+		<br/>
+		
+		cecececececeecececececece.
+		
+		</h2>
+		
+		<br/> <br/> <br/> <br/> <br/> <br/> 
+		
+		<h2 id="topicoC2">Este é o Tópico C, Opção 2
+		
+		<br/>
+		
+		lelelelelelelelelelelelele.
+		
+		</h2>
+		
+		<br/> <br/> <br/> <br/> <br/> <br/> 
+		
+		<button class="btn btn-primary" data-toggle="modal" data-target="#LePopup">
+			Lançar Le Popup
+		</button>
+	
+		<br/> <br/> <br/>
+		
+		<div id="LePopup" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close"
+						data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Le Popup </h4>
+				</div>
+				<div class="modal-body">
+					<p>Popupped this</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Le close button</button>
+					</div>
+				</div>
+		</div>
+		</div>
+		
+		<br/> <br/> <br/> <br/>
+		
+		<button class="btn btn-primary" onclick="desenhaGrafico()">
+			El Grafico de Linhas
+		</button>
+		
+		
+		<button class="btn btn-primary" onclick="desenhaGrafico2()">
+			El Grafico de Linhas em colunna
+		</button>
+		
+
+		<button class="btn btn-primary" onclick="desenhaGrafico3()">
+			El Grafico de Linhas em pontos
+		</button>
+		
+
+		
+		<button class="btn btn-primary" onclick="desenhaGrafico4()">
+			El Grafico de Linhas em barras
+		</button>
+		
+
+		
+		<button class="btn btn-primary" onclick="desenhaGrafico5()">
+			El Grafico de Linhas em area
+		</button>
+		
+		<br/> <br/>
+		
+		<button class="btn btn-primary" onclick="desenhaGrafico6()">
+			El Grafico de Linhas em la tiarte
+		</button>
+		
+		<br/> <br/> <br/>
+		
+		<div id="grafico-linhas" style="width: 500px; height: 375px;"></div>
+		<script type="text/javascript" src="grafico-linhas.js"></script>
+		
+		<br/> <br/> <br/> <br/>
+		
+		<button class="btn btn-primary" onclick="desenhamapa()">
+			El Mapa de Aveiro
+		</button>
+		
+		<br/>
+		
+		<button class="btn btn-primary" onclick="desenhamapa2()">
+			El Mapa de Vagos
+		</button>
+		
+		<div id="LeMapa" style="width: 500px; height: 400px"></div>
+		<script type="text/javascript" src="map.js"></script>
+		
+		<br/> <br/> <br/> <br/>
+		
+		</div>
+	</body>
+</html>
