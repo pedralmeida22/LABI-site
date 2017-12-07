@@ -1,0 +1,49 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {portuguese}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Metodologia}{2}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Evolu\IeC {\c c}\IeC {\~a}o de Sistemas de Armazenamento de Dados}{3}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Cart\IeC {\~a}o Perfurado}{3}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Tubo de Williams}{4}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Tambor de Mem\IeC {\'o}ria}{5}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}UNISERVO}{6}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}IBM 350 Disk Storage Unit}{7}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Cassete}{8}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Disquete}{9}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}IBM 3380}{11}{section.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}ST-506}{12}{section.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.10}Digital Audio Tape}{13}{section.3.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.11}CD-R}{14}{section.3.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.12}MiniDisc Data}{15}{section.3.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.13}ZIP}{16}{section.3.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.14}Seagate Barracuda}{17}{section.3.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.15}IBM 170 Microdrive}{18}{section.3.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.16}IBM DiskOnKey}{19}{section.3.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.17}SD Card}{21}{section.3.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.18}Solid-State Drive (SSD)}{22}{section.3.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.19}Cloud Storage}{24}{section.3.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es Finais}{26}{chapter.4}
