@@ -1,9 +1,0 @@
-[0] Config.pm:302> INFO - This is Biber 2.8
-[0] Config.pm:305> INFO - Logfile is 'documento.blg'
-[29] biber-MSWIN64:313> INFO - === 
-[48] Biber.pm:361> INFO - Reading 'documento.bcf'
-[132] Biber.pm:847> INFO - Found 0 citekeys in bib section 0
-[140] Utils.pm:169> WARN - The file 'documento.bcf' does not contain any citations!
-[146] bbl.pm:613> INFO - Writing 'documento.bbl' with encoding 'UTF-8'
-[147] bbl.pm:716> INFO - Output to documento.bbl
-[147] Biber.pm:110> INFO - WARNINGS: 1
