@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Sistemas de Armazenamento de Dados</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" 
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"> 
+	<link rel="stylesheet" 
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap-theme.min.css"> 
+	<script 
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+	<script 
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script> 
+	<script type="text/javascript" 
+	src="http://code.highcharts.com/highcharts.js"></script>
+	<script type="text/javascript" 
+	src="grafico-linhas.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"> 
+	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+	<script type="text/javascript" src="map.js"></script>
+</head>
+
+<body>
+<div class="container"> 
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="#">Página Inicial</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-item nav-link active" href="#">Sistemas de Armazenamento <span class="sr-only">(current)</span></a>
+			</li>
+		</ul>
+		<ul class="navbar-nav nav navbar-right">
+			<li class="nav-item">
+				<a class="nav-item nav-link navbar-right" href="#">Acerca de</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<div class="row">
+	<div id="list-example" class="list-group col-3">
+		<a class="list-group-item list-group-item-action" href="#cartaoperfurado">Cartão Perfurado</a>
+		<a class="list-group-item list-group-item-action" href="#tubowlliams">Tubo de Williams</a>
+		<a class="list-group-item list-group-item-action" href="#tambormemoria">Tambor de Memória</a>
+		<a class="list-group-item list-group-item-action" href="#uniservo">UNISERVO</a>
+		<a class="list-group-item list-group-item-action" href="#diskstorage">IBM 350 Disk Storage Unit</a>
+		<a class="list-group-item list-group-item-action" href="#cassete">Cassete</a>
+		<a class="list-group-item list-group-item-action" href="#disquete">Disquete</a>
+		<a class="list-group-item list-group-item-action" href="#ibm3380">IBM 3380</a>
+		<a class="list-group-item list-group-item-action" href="#st506">ST-506</a>
+		<a class="list-group-item list-group-item-action" href="#digitalaudiotape">Digital Audio Tape</a>
+		<a class="list-group-item list-group-item-action" href="#cd-r">CD-R</a>
+		<a class="list-group-item list-group-item-action" href="#minidisc">MiniDisc Data</a>
+		<a class="list-group-item list-group-item-action" href="#zipdrive">ZIP Drive </a>
+		<a class="list-group-item list-group-item-action" href="#barracuda">Seagate Barracuda</a>
+		<a class="list-group-item list-group-item-action" href="#microdrive">Microdrive</a>
+		<a class="list-group-item list-group-item-action" href="#dickonkey">IBM DiskOnKey</a>
+		<a class="list-group-item list-group-item-action" href="#sd-card">SD Card</a>
+		<a class="list-group-item list-group-item-action" href="#ssd">Solid-State Drive</a>
+		<a class="list-group-item list-group-item-action" href="#cloud">Cloud Storage</a>
+	</div>
+	<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example col-9">
+		<h4 id="cartaoperfurado"> Cartão Perfurado</h4>
+		<p>O Cartão Perfurado(Punched Card foi inventado por Joseph-Marie Jacquard em 1804. 
+			Os cartões perfurados contêm informações digitais representadas pela presença ou falta de furos em posições predefenidas.
+			<img src="Imagens/cartaoperfurado.jpg" alt="Cartão Perfurado" width="200px" height="300px">
+		</p>
+		<h4 id="tubowlliams">Tubo de Williams</h4>
+		<p>...</p>
+		<h4 id="tambormemoria">Tambor de Memória</h4>
+		<p>...</p>
+		<h4 id="uniservo">UNISERVO</h4>
+		<p>...</p>
+		<h4 id="diskstorage">IBM 350 Disk Storage Unit</h4>
+		<p>...</p>
+		<h4 id="cassete">Cassete</h4>
+		<p>...</p>
+		<h4 id="disquete">Disquete</h4>
+		<p>...</p>
+		<h4 id="ibm3380">IBM 3380</h4>
+		<p>...</p>
+		<h4 id="st506">ST-506</h4>
+		<p>...</p>
+		<h4 id="digitalaudiotape">Digital Audio Tape</h4>
+		<p>...</p>
+		<h4 id="cd-r">CD-R</h4>
+		<p>...</p>
+		<h4 id="minidisc">MiniDisc Data</h4>
+		<p>...</p>
+		<h4 id="zipdrive">ZIP Drive</h4>
+		<p>...</p>
+		<h4 id="barracuda">Seagate Barracuda</h4>
+		<p>...</p>
+		<h4 id="microdrive">Microdrive</h4>
+		<p>...</p>
+		<h4 id="dickonkey">IBM DiskOnKey</h4>
+		<p>...</p>
+		<h4 id="sd-card">SD Card</h4>
+		<p>...</p>
+		<h4 id="ssd">Solid-State Drive</h4>
+		<p>...</p>
+		<h4 id="cloud">Cloud Storage</h4>
+		<p>...</p>
+		
+	</div>
+	</div>
+	
+</div>
+</body>
+
+</html>
