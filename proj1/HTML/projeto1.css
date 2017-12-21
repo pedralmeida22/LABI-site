@@ -5,7 +5,26 @@ body {
 #index {
 	background-color: lightgrey;
 }
-
+lightgrey
 footer{
 	text-align: center;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: lightgrey;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+#sistemasdearmazenamento {
+	background-color: lightgrey;
+}
+#about {
+	background-color: lightgrey;
+}
+
+#page{
+	width: 100%;
+	max-width: none;
 }
