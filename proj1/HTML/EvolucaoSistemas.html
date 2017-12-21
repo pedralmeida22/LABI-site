@@ -40,15 +40,27 @@
 		</ul>
 		<ul class="navbar-nav nav navbar-right">
 			<li class="nav-item">
-				<a class="nav-item nav-link navbar-right" href="about.html">Acerca de</a>
+				<a class="nav-item nav-link navbar-right" href="about.html">Acerca deste projeto</a>
 			</li>
 		</ul>
 	</nav>
 	
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Evolução dos Sistemas de Armazenamento de Dados</h1>
+    <p class="lead">Os sistemas de armazenamento de dados têm vindo a sofrer um processo de evolução ininterrupto até aos dias de hoje. 
+					Essas evoluções podem tanto ser no aumento da capacidade de armazenamento como na redução do tamnho físico destes dispositivos.
+					Poderá ver ao longo desta página todas essas transformações.
+	</p>
+  </div>
+</div>
+
+<hr>
+	
 <div class="row">
-	<div id="list-example" class="list-group col-3">
+	<div id="listalateral" class="list-group col-3">
 		<a class="list-group-item list-group-item-action" href="#cartaoperfurado">Cartão Perfurado</a>
-		<a class="list-group-item list-group-item-action" href="#tubowlliams">Tubo de Williams</a>
+		<a class="list-group-item list-group-item-action" href="#tubowilliams">Tubo de Williams</a>
 		<a class="list-group-item list-group-item-action" href="#tambormemoria">Tambor de Memória</a>
 		<a class="list-group-item list-group-item-action" href="#uniservo">UNISERVO</a>
 		<a class="list-group-item list-group-item-action" href="#diskstorage">IBM 350 Disk Storage Unit</a>
@@ -67,29 +79,221 @@
 		<a class="list-group-item list-group-item-action" href="#ssd">Solid-State Drive</a>
 		<a class="list-group-item list-group-item-action" href="#cloud">Cloud Storage</a>
 	</div>
-	<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example col-9">
-		</br>
+	<div id="evolucao" data-spy="scroll" data-target="#listalateral" data-offset="0" class="scrollspy-example col-9">
+		
 		<h4 id="cartaoperfurado"> Cartão Perfurado</h4>
-		<p> O Cartão Perfurado(Punched Card foi inventado por Joseph-Marie Jacquard em 1804. 
-			Os cartões perfurados contêm informações digitais representadas pela presença ou falta de furos em posições predefenidas.
-			<img src="Imagens/cartaoperfurado.jpg" alt="Cartão Perfurado" width="200px" height="300px">
+		<p> O Cartão Perfurado (Punched Card) foi inventado por Joseph-Marie Jacquard em 1804. Foi inventado com o objetivo de comandar
+			teares de forma automática, depois de ter percebido que as mudanças de linhas seguiam um certo padrão.
 		</p>
-		<h4 id="tubowlliams">Tubo de Williams</h4>
-		<p>...</p>
+		<p> Os cartões perfurados contêm informações digitais representadas pela presença ou falta de furos em posições predefenidas e foi este 
+			o método que mais tarde, entre 1900 e 1950, a Internacional Business Machines (IBM) utilizou para codificar as informações nos sistemas de armazenamento
+			de dados.
+		</p>
+		<img src="Imagens/cartaoperfurado.jpg" alt="Cartão Perfurado" width="200px" height="300px">
+		</br></br>
+		
+		<h4 id="tubowilliams">Tubo de Williams</h4>
+		<p> O Tubo de Williams foi criado por Sir Frederick Williams na Universidade de Manchester em 1947. Este 
+			 foi o primeiro dispositivo digital de memória de acesso aleatório e possuía uma velocidade de 1,2 
+			 milésimos de segundo por instrução.
+		</p>
+		<p> O Tubo de Williams foi utlizado pela primeira vez na construção de um computador em 1949.
+			Esse computador foi o Manchester Mark I. 
+		</p>
+		<p> 
+			<h5>Como funciona:</h5>
+			No seu processo de armazenamento de informação, um eletrão percorre sucessivas linhas na face do tubo, marcando com pontos
+			ou traços de carga elétrica florescente na placa representando, assim, os uns e os zeros do código binário. 
+		</p>
+		<img src="Imagens/williamstube.jpg" alt="Tubo de Williams" width="300px" height="200px">
+		</br></br>
+		
 		<h4 id="tambormemoria">Tambor de Memória</h4>
-		<p>...</p>
+		<p>O tambor de memória, também conhecido como <i>Drum Memory</i> foi inventado por Gustav Tauschek em 1932 na Áustria.
+			A capacidade de armazenamento do tambor de memória original era de cerca de 500,000 bits.
+		</p>
+		<p> é constituído por um cilindro de revolução metálico que roda em torno de um eixo vertical e o movimento é assegurado 
+			por um motor elétrico. Um conjunto de cabeças fixas assegura a gravação e a leitura da informação.
+		</p>
+		<p >Este sistema de armazenamento de dados foi especialmente importante pois, no início da década de 60 passaram a utilizar-se
+			na construção de computadores com memórias não voláteis, isto é, não perde a informação guardada depois de desligar a fonte
+			de energia.
+		</p>
+		<img src="Imagens/tambordememoria.jpg" alt="Tambor de Memória" width="200px" height="300px">
+		</br></br>
+		
 		<h4 id="uniservo">UNISERVO</h4>
-		<p>...</p>
+		<p>A unidade de fita <i>UNISERVO</i>, introduzida a 1951 e o seu lugar ficou garantido na história pois este dispositivo foi a
+			primeira unidade de fita para um computador vendido comercialmente.
+		</p>
+		<p> O <i>UNISERVO</i> usava uma fita de metal, com 13 mm de largura, feita de uma liga níquel-bronze de fósforo (chamado Vicalloy) e 
+			tinha 1200 metros de comprimento, e sendo esta incrivelmente pesada. 
+		</p>
+		<p>Os dados são guardados em 8 secções da fita, onde 6 são para os valores dos dados (1 ou 0), 1 para a verificação de erros e 1 que 
+			regista o tempo, tudo isto à densidade de 128 bits por 2,54 cm. A fita pode ser movida a 254 cm por segundo, oferecendo uma taxa de
+			transferência nominal de 12,800 caracteres por segundo. Os blocos onde os dados são guardados possuem o tamanho fixo de 60 palavras
+			de 12 caracteres cada. 
+		</p>
+		<img src="Imagens/uniservo.jpg" alt="UNISERVO" width="200px" height="300px">
+		</br></br>
+		
 		<h4 id="diskstorage">IBM 350 Disk Storage Unit</h4>
-		<p>...</p>
+		<p>  Em 1956, a IBM lançou no mercado o IBM 305 Random Access Method of Accounting and Control (RAMAC). Foi o primeiro computador a ser 
+			comercializado para empresas, visto que até aqui os computadores eram exclusivos para aplicações militares. Assim, o RAMAC, foi projetado
+			para executar aplicativos de contabilidade e controlo de transações.
+		</p>
+		<p> A novidade do computador 305 RAMAC, não era a sua capacidade de processamento mas sim a rapidez. Ao possibilitar  que a informação 
+			fosse gravada, lida e alterada em poucos segundos e, principalmente, pudesse ser feito o acesso de forma aleatória, eliminando a 
+			necessidade de se classificar os dados em sequência antes do seu processamento, o que até então era um requisito imposto pelos
+			equipamentos de fita magnética ou cartões perfurados, que eram os meios disponíveis para se armazenar dados até ao momento, fez 
+			com que o IBM 350 fosse um sucesso. 
+		</p>
+		<p> Este deispositivo foi também responsável por pôr fim à era dos cartões perfurados.
+		</p>
+		<img src="Imagens/RAMAC.jpg" alt="RAMAC" width="300px" height="200px">
+		</br></br>
+		
 		<h4 id="cassete">Cassete</h4>
-		<p>...</p>
+		<p>A cassete ou <i>compact cassete</i> é um padrão de fita magnética para gravação de áudio. Foi lançada oficialmente em 1963 pela empresa
+			holandesa Philips, possuindo um armazenamento de 660 Kilobyte por cada lado da cassete. Com um tamanho de apenas 10 por 7 cm, a cassete
+			permitiu uma enorme economia de espaço face às fitas de rolo.
+		</p>
+		<p> A cassete era de fácil manuseamento e a utilização permitindo que a fita fosse colocada ou retirada em qualquer ponto da 
+			gravação ou reprodução sem a necessidade de ser rebobinada como as fitas de rolo. 
+		</p>
+		<p> No início, era possível gravar apenas 30 minutos em cada lado da fita, perfazendo assim uma hora de gravação. Ao longo do tempo,
+			foram aumentando a capacidade de gravação para 45, 60, 90 e até 120 mintutos.
+		</p>
+		<img src="Imagens/cassete.jpg" alt="Cassete" width="300px" height="200px">
+		</br></br>
+		
 		<h4 id="disquete">Disquete</h4>
-		<p>...</p>
+		<p> A Disquete, também conhecido como Floppy Disk Drive foi desenvolvida no final da década de 60 mas só ficou disponível
+			comercialmente em 1971. No fundo, a disquete é um disco protegido por uma capa para evitar que se danifique. O tamanho incial da 
+			disquete era de 8 polegadas e tinha uma capacidade de armazenamneto de 80 KB.
+		</p>
+		<p> Devido à fácil utilização, a disquete foi, por mais de duas décadas, o principal sistema de armazenamento de dados mais utilizado. 
+			A maioria dos ambientes computacionais antes de 1990 não possuíam redes, e assim, as disquetes eram o principal sistema de 
+			transferência de dados entre os computadores. 
+		</p>
+		<p> Contudo,  vários motivos fizeram com que, com o passar dos anos, as disquetes acabassem em desuso.  </br> Alguns desses motivos são:
+			<ul>
+				<li> Escassa capacidade de armazenamento em comparação com outras tecnologias mais avançadas. </li> 
+				<li> A facilidade com que se danificavam. </li> 
+			</ul>
+		</p>
+	<div align="center">	
+	<table border=1> 
+		<CAPTION align="bottom" id="legendatabela"> Tabela 1: Evolução da Disquete</CAPTION>
+		<tr>
+			<th> Tamanho do Disco </th>
+			<th> Ano </th>
+			<th>Capacidade</th>
+		</tr> 
+		<tr>
+			<td> 8 pol </td>
+			<td> 1971 </td>
+			<td> 80 KB </td>
+		</tr> 
+		<tr>
+			<td> 8 pol </td>
+			<td> 1973 </td>
+			<td> 256 KB </td>
+		</tr> 
+		<tr>
+			<td> 8 pol </td>
+			<td> 1974 </td>
+			<td> 800 KB </td>
+		</tr> 
+		<tr>
+			<td> 8 pol dual-sided </td>
+			<td> 1975 </td>
+			<td> 1 MB </td>
+		</tr> 
+		<tr>
+			<td> 1.25 pol </td>
+			<td> 1976 </td>
+			<td> 160 KB </td>
+		</tr> 
+		<tr>
+			<td> 1.25 pol </td>
+			<td> 1978 </td>
+			<td> 360 KB </td>
+		</tr> 
+		<tr>
+			<td> 1.25 pol </td>
+			<td> 1980 </td>
+			<td> 720 KB </td>
+		</tr> 
+		<tr>
+			<td> 1.25 pol </td>
+			<td> 1984 </td>
+			<td> 1.2 MB </td>
+		</tr> 
+		<tr>
+			<td> 3 pol </td>
+			<td> 1984 </td>
+			<td> 320 KB </td>
+		</tr> 
+		<tr>
+			<td> 1.5 pol </td>
+			<td> 1984 </td>
+			<td> 720 KB </td>
+		</tr> 
+		<tr>
+			<td> 1.5 pol </td>
+			<td> 1987 </td>
+			<td> 1.44 MB </td>
+		</tr> 
+		<tr>
+			<td> 1.5 pol </td>
+			<td> 1991 </td>
+			<td> 2.88 MB </td>
+		</tr> 
+		<tr>
+			<td> 1.5 pol </td>
+			<td> 1993 </td>
+			<td> 5.76 MB </td>
+		</tr> 
+	</table>
+	</div>	
+	
+	<p> Com a tabela pode concluir-se que, ao longo dos anos, a dimensão física tem tendência a diminuir, 
+		inversamente à capacidade de armazenamento de dados que vai aumentando.
+	</p>
+	<h5> Sabia que?</h5>
+	<ul>
+		<li> As disquetes foram os primeiros transmissores de vírus de computador.</li> 
+	</ul>	
+	
+		<img src="Imagens/disquete.jpg" alt="Disquete" width="300px" height="200px">
+		</br></br>
+		
 		<h4 id="ibm3380">IBM 3380</h4>
-		<p>...</p>
+		<p> O IBM 3380 Direct Access Storage Device foi anunciado em Junho de 1980 pela IBM. Foi desenvolvido pela Universidade de Auckland e foi
+			o primeiro dispositivo de armazenamento a atingir o território do Gigabyte, ficando por esse mesmo feito na história.
+		</p>
+		<p> A série 3380 teve vários modelos, sendo eles A4, A4F, AA4, AAF, B4 e BF4. Todos estes modelos eram apenas um dispositivo de armazenamento de dados
+			e não um computador. Todos esses modelos usavam duas <i>hard drives</i> com cerca de 1.26 Gigabyte cada, perfazendo, assim, um total de 2.52 GB. 
+			Tinha uma taxa de transferências de dados 3 Megabyte por segundo.
+		</p>
+		<p> Apesar dos vários modelos da série 3380 terem todas características semelhantes, as melhorias de cada série eram significativas.Comparando o primeiro modelo com o
+			último, foi possível reduzir o consumo de energia em 70% e a produção de calor em 75%. Estes avanços, fizeram com que o IBM 3380 se tornasse muito mais fiável e 
+			eficiente. 
+		</p>
+		<img src="Imagens/ibm3380.jpg" alt="IBM 3380" width="300px" height="200px">
+		</br></br>
+		
 		<h4 id="st506">ST-506</h4>
-		<p>...</p>
+		<p> O ST-506 foi o apresentado em 1980 pela então denominada <i>Shugart Technology</i>, atualmente <i>Seagate Technology</i> e tinha uma capacidade de 5 MB. Foi 
+			o primeiro disco rígido com um tamnho físico de apenas 5.25 polegadas e deu origem aos discos rígidos que utilizamos hoje em dia.
+		</p>
+		<p> O ST-412 foi um modelo superior ao ST-506 lançado em fins de 1981, com um espaço de armazenamento de dados de 10 MB. Contudo, o dobro da capacidade de armazenamento
+			tinha um custo muito elevado. Ambos os modelos usavam codificação Modified Frequency Modulation.
+		</p>
+		<img src="Imagens/st-506.jpg" alt="ST-506" width="300px" height="200px">
+		</br></br>
+		
 		<h4 id="digitalaudiotape">Digital Audio Tape</h4>
 		<p> A Digital Audio Tape (DAT) é uma cassete de gravação digital apresentado pela Sony em 1987. 
 		Funcionava com uma fita magnética de 4mm para fazer a gravação de dados. As fitas do DAT tinham entre 15 a 180 minutos de duração. 
@@ -99,15 +303,19 @@
 		Sem grande sucesso, em 2005, a Sony descontinuou a produção da Digital Audio Tape.
 		</p>
 		<p><img src="Imagens/dat.jpg" alt="Digital Audio Tape" width="50%" height="50%"></p>
+		</br></br>
+		
 		<h4 id="cd-r">CD-R</h4>
 		<p> Um Compact Disk Recordable (CD-R) é um disco fino (1.2 mm) de policarbonato usado principalmente para gravar músicas ou dados,
 		 que surgiu no de 1990 com um armazenamento de 700 MB.
-		 </p>
+		</p>
 		<p> Este suporte marcou a história pela sua ampla utilização e ainda atualmente consegue manter a sua presença tanto ao nível da gravação de música como de dados.</p>
 		<p> A superfície do Compact Disk (CD) contém uma longa pista espiral de dados. Ao longo da pista, existem zonas lisas reflexivas e solavancos não reflexivos. 
 		A área lisa reflexiva representa o número binário 1, enquanto que o solavanco representa o número binário 0.
 		</p>
 		<p><img src="Imagens/cd-r.jpg" alt="Um CD-R" width="30%" height="30%"></p>
+		</br></br>
+		
 		<h4 id="minidisc">MiniDisc Data</h4>
 		<p>O MiniDisc Data, também conhecido como MD Data ou apenas MiniDisc Data (MD), e como o nome indica, 
 		é, basicamente, um disco com capacidade de armazenamento de informação e normalmente privilegia o áudio.
@@ -117,7 +325,9 @@
 		era necessário estar em modo "play", logo não funcionava em computadores. O seu uso era predominante em câmeras digitais;	 
 		era muito caro; e era considerado lento.
 		</p>
-		<p><img src="Imagens/MD_data.jpg" alt="MiniDisc Data" width="50%" height="50%"></p>
+		<p><img src="Imagens/MD_data.jpg" alt="MiniDisc Data" width="30%" height="30%"></p>
+		</br></br>
+		
 		<h4 id="zipdrive">ZIP Drive</h4>
 		<p> O ZIP Drive é um sistema de disco removível de média capacidade, introduzido pela Iomega em 1994.
 		</p>
@@ -130,6 +340,8 @@
 		Aliada a isto estava o seu preço, muito mais em conta, face às alternativas.
 		</p>
 		<p><img src="Imagens/zipdrive.jpg" alt="Uma ZIP Drive e seu leitor" width="30%" height="30%"></p>
+		</br></br>
+		
 		<h4 id="barracuda">Seagate Barracuda</h4>
 		<p> Seagate Barracuda é uma série do disco rígido, a maioria dos quais operam a uma velocidade de rotação de 7200 rpm (rotações por minuto).
 		 Estes são produzidos pela Seagate Technology.
@@ -148,12 +360,16 @@
 		Esta polaridade é analisada por controladores integrados no disco rígido.
 		</p>
 		<p><img src="Imagens/barracuda.jpg" alt="Seagate Barracuda" width="30%" height="30%"></p>
+		</br></br>
+		
 		<h4 id="microdrive">IBM 170 Microdrive</h4>
 		<p> O Microdrive (MD) é um disco rígido de 1 polegada concebido para caber num Slot Tipo II CompactFlash. 
 		Este sistema de armazenamento de dados teve bastante adesão por ser barato, com bastante oferta e grande capacidade de armazenamento.
 		(TABELA A INSERIR)
 		</p>
 		<p><img src="Imagens/microdrive.jpg" alt="Microdrive" width="30%" height="30%"></p>
+		</br></br>
+		
 		<h4 id="dickonkey">IBM DiskOnKey</h4>
 		<p> Em 2000, a M-Systems e a IBM apresentaram a IBM DiskOnKey, também conhecida como USB drive. 
 		A primeira unidade de armazenamento portátil que cabe num bolso e foi também a primeira unidade de armazenamento flash 
@@ -177,6 +393,8 @@
 		<p> Ao longo dos anos, as USB drive foram sofrendo melhorias e na atualidade, a capacidade de armazenamento já chega aos 256 GB e a um preço mais convidativo.
 		</p>
 		<p><img src="Imagens/usb_drive.jpg" alt="USB Drive" width="30%" height="30%"></p>
+		</br></br>
+		
 		<h4 id="sd-card">SD Card</h4>
 		<p> Os Secure Digital Card (SD) são pequenos cartões que são usados popularmente em câmaras, smartphones e GPS, 
 		para fornecer ou aumentar a memória desses dispositivos. Surgiram no ano de 2000 com um armazenamento inicial de 32 MB. 
@@ -192,17 +410,22 @@
 		<p> Fica na história por ser um dispositivo que não condiciona o tamanho do equipamento onde será usado.
 		</p>
 		<p><img src="Imagens/sdcard.jpg" alt="Cartão SD" width="30%" height="30%"></p>
+		</br></br>
+		
 		<h4 id="ssd">Solid-State Drive</h4>
 		<p>...</p>
+		</br></br>
+		
 		<h4 id="cloud">Cloud Storage</h4>
 		<p>...</p>
+		</br></br>
 	</div>
 </div>
 		
 <div align="center">
- <footer> <hr> Afonso Cardoso &amp; Pedro Almeida </br> LaBi 2017 </footer>
+ <footer> <hr> Afonso Cardoso &amp; Pedro Almeida </br> LaBi@UA 2017 </footer>
 </div>
-, 
+
 </div>
 </body>
 

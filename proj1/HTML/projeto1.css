@@ -1,7 +1,6 @@
 body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-
 #index {
 	background-color: lightgrey;
 }
@@ -11,7 +10,7 @@ footer{
 }
 .jumbotron {
     margin-bottom: 0px;
-    background-color: lightgrey;
+    background-color: lightseagreen;
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,4 +26,22 @@ footer{
 #page{
 	width: 100%;
 	max-width: none;
+}
+
+h4 {
+	color: darkcyan;
+}
+#evolucao {
+	text-align: justify;
+	text-justify: inter-word;
+}
+#legendatabela {
+	color: black;
+}
+#listalateral { 
+	background-color: cadetblue;
+} 
+img {
+	display: block;
+    margin: 0 auto;
 }
