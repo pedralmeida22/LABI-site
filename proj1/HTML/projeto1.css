@@ -45,5 +45,28 @@ img {
 	display: block;
     margin: 0 auto;
 }
+#aboutbody1 {
+	width:600px;
+	height:500px;
+	margin-top:0;
+	margin-left:auto;
+	margin-bottom:0;
+	margin-right:auto;
+	background-color: lightgrey;
+}
+#aboutbody2 {
+	width:500px;
+	height:650px;
+	margin-top:0;
+	margin-left:auto;
+	margin-bottom:0;
+	margin-right:auto;
+	background-color: lightgrey;
+}
+
+
+
+
+
 
 
