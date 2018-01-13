@@ -10,7 +10,8 @@
 	<link rel="stylesheet" 
 	href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"> 
 	<link rel="stylesheet" 
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap-theme.min.css"> 
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
 	<script 
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 	<script 
@@ -27,9 +28,10 @@
 
 <body id="sistemasdearmazenamento">
 <div class="container" id="page"> 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" >
 	<a class="navbar-brand" href="index.html">Página Inicial</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -45,7 +47,30 @@
 		</ul>
 	</nav>
 	
-<div class="jumbotron jumbotron-fluid">
+<div class="w3-sidebar w3-dark-grey w3-bar-block" style="width:18%">
+	 <h4 class="w3-bar-item">Sistemas de Armazenamento <hr></h4>
+		<a href="#cartaoperfurado" class="w3-bar-item w3-button">Cartão Perfurado</a>
+		<a href="#tubowilliams" class="w3-bar-item w3-button">Tubo de Williams</a>
+		<a href="#tambormemoria" class="w3-bar-item w3-button">Tambor de Memória</a>
+		<a href="#uniservo" class="w3-bar-item w3-button">UNISERVO</a>
+		<a href="#diskstorage" class="w3-bar-item w3-button">IBM 350 Disk Storage Unit</a>
+		<a href="#cassete" class="w3-bar-item w3-button">Cassete</a>
+		<a href="#disquete" class="w3-bar-item w3-button">Disquete</a>
+		<a href="#ibm3380" class="w3-bar-item w3-button">IBM 3380</a>
+		<a href="#st506" class="w3-bar-item w3-button">ST-506</a>
+		<a href="#digitalaudiotape" class="w3-bar-item w3-button">Digital Audio Tape</a>
+		<a href="#cd-r" class="w3-bar-item w3-button">CD-R</a>
+		<a href="#minidisc" class="w3-bar-item w3-button">MiniDisc Data</a>
+		<a href="#zipdrive" class="w3-bar-item w3-button">ZIP Drive</a>
+		<a href="#barracuda" class="w3-bar-item w3-button">Seagate Barracuda</a>
+		<a href="#microdrive" class="w3-bar-item w3-button">Microdrive</a>
+		<a href="#dickonkey" class="w3-bar-item w3-button">IBM DiskOnKey</a>
+		<a href="#sd-card" class="w3-bar-item w3-button">SD Card</a>
+		<a href="#ssd" class="w3-bar-item w3-button">Solid-State Drive</a>
+		<a href="#cloud" class="w3-bar-item w3-button">Cloud Storage</a>
+</div>
+	
+<div class="jumbotron jumbotron-fluid" id="jumbotron2">
   <div class="container">
     <h1 class="display-3">Evolução dos Sistemas de Armazenamento de Dados</h1>
     <p class="lead">Os sistemas de armazenamento de dados têm vindo a sofrer um processo de evolução ininterrupto até aos dias de hoje. 
@@ -57,30 +82,7 @@
 
 <hr>
 	
-<div class="row">
-	<div id="listalateral" class="list-group col-3">
-		<a class="list-group-item list-group-item-action" href="#cartaoperfurado">Cartão Perfurado</a>
-		<a class="list-group-item list-group-item-action" href="#tubowilliams">Tubo de Williams</a>
-		<a class="list-group-item list-group-item-action" href="#tambormemoria">Tambor de Memória</a>
-		<a class="list-group-item list-group-item-action" href="#uniservo">UNISERVO</a>
-		<a class="list-group-item list-group-item-action" href="#diskstorage">IBM 350 Disk Storage Unit</a>
-		<a class="list-group-item list-group-item-action" href="#cassete">Cassete</a>
-		<a class="list-group-item list-group-item-action" href="#disquete">Disquete</a>
-		<a class="list-group-item list-group-item-action" href="#ibm3380">IBM 3380</a>
-		<a class="list-group-item list-group-item-action" href="#st506">ST-506</a>
-		<a class="list-group-item list-group-item-action" href="#digitalaudiotape">Digital Audio Tape</a>
-		<a class="list-group-item list-group-item-action" href="#cd-r">CD-R</a>
-		<a class="list-group-item list-group-item-action" href="#minidisc">MiniDisc Data</a>
-		<a class="list-group-item list-group-item-action" href="#zipdrive">ZIP Drive </a>
-		<a class="list-group-item list-group-item-action" href="#barracuda">Seagate Barracuda</a>
-		<a class="list-group-item list-group-item-action" href="#microdrive">Microdrive</a>
-		<a class="list-group-item list-group-item-action" href="#dickonkey">IBM DiskOnKey</a>
-		<a class="list-group-item list-group-item-action" href="#sd-card">SD Card</a>
-		<a class="list-group-item list-group-item-action" href="#ssd">Solid-State Drive</a>
-		<a class="list-group-item list-group-item-action" href="#cloud">Cloud Storage</a>
-	</div>
-	<div id="evolucao" data-spy="scroll" data-target="#listalateral" data-offset="0" class="scrollspy-example col-9">
-		
+	<div id="conteudo">
 		<h4 id="cartaoperfurado"> Cartão Perfurado</h4>
 		<p> O Cartão Perfurado (Punched Card) foi inventado por Joseph-Marie Jacquard em 1804. Foi inventado com o objetivo de comandar
 			teares de forma automática, depois de ter percebido que as mudanças de linhas seguiam um certo padrão.
@@ -506,7 +508,6 @@
 		<p><img src="Imagens/cloud-storage2.png" alt="Alguns dispositvos que podem usar Cloud Storage" width="30%" height="30%"></p>
 		</br></br>
 	</div>
-</div>
 
 <div align="right">
 	<button type="button" class="btn btn-outline-dark"><a href="#top">Voltar ao Topo</a></button>
