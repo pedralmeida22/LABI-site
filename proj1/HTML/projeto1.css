@@ -84,9 +84,9 @@ img {
 	margin-left: 19%;
 }
 
-
-
-
-
-
+#esfera{
+	
+	shimmer.style.backgroundColor = "transparent";
+	
+}
 

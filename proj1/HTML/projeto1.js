@@ -17,5 +17,3 @@ for(i in pontos) {
 
 L.marker([40.633258, -8.659097], {icon: iconeUA}).bindPopup("DETI") 
 //fim mapa
-
-
