@@ -1,6 +1,3 @@
-body {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
 #index {
 	position: absolute;
 	padding: 0px;
@@ -51,7 +48,7 @@ footer{
 }
 
 h4 {
-	color: lightseagreen;
+	color: darkcyan;
 }
 #evolucao {
 	text-align: justify;
@@ -77,17 +74,14 @@ img {
 	background-color: white;
 }
 #aboutbody2 {
-	width:515px;
-	height:650px;
+	width:550px;
+	height:950px;
 	margin-top:0;
 	margin-left:auto;
 	margin-bottom:0;
 	margin-right:auto;
-<<<<<<< HEAD
-	background-color:;
-=======
 	background-color: white;
->>>>>>> 8a48d573489e36bf978bc03829835cf5e055a02b
+
 }
 #conteudo {
 	margin-left: 19%;
@@ -98,4 +92,7 @@ img {
 }
 #sidebar{
 	padding-bottom: 60px;
+}
+#infoDisciplina{
+	font-size: 125%;
 }

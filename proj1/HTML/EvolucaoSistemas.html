@@ -269,13 +269,8 @@
 	<p> Com os dados da tabela pode-se concluir que, ao longo dos anos, a dimensão física da disquete tem tendência a diminuir, 
 		inversamente à sua capacidade de armazenamento de dados que vai aumentando.
 	</p>
-	<div>
-	<a data-toggle="popover" title="Sabia que?" data-content="As disquetes foram os primeiros transmissores de vírus de computador."><h4 style="color: lightseagreen">Sabia que?</h4></a>
-	<script>
-	$(document).ready(function(){
-		$('[data-toggle="popover"]').popover();
-	});
-	</script>
+	<div align="left">
+		<button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="bottom" title="As disquetes foram os primeiros transmissores de vírus de computador."> Sabias que?</button>
 	</div>
 		<img src="Imagens/disquete.jpg" alt="Disquete" width="300px" height="200px">
 		</br></br>
@@ -527,6 +522,12 @@
 </div>
 
 </div>
+
+<script>
+		$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip(); 
+		});
+</script>
 </body>
 
 </html>
