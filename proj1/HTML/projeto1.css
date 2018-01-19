@@ -2,7 +2,8 @@ body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 #index {
-	background-color: lightgrey;
+	padding: 0px;
+	background-color: white;
 }
 lightgrey
 footer{
@@ -34,13 +35,15 @@ margin-bottom: 0px;
     color: black;
 }
 #sistemasdearmazenamento {
-	background-color: lightgrey;
+	background-color: white;
 }
 #about {
-	background-color: lightgrey;
+	padding: 0px;
+	background-color: white;
 }
 
 #page{
+	padding: 0px;
 	width: 100%;
 	max-width: none;
 }
@@ -56,7 +59,7 @@ h4 {
 	color: black;
 }
 #listalateral { 
-	background-color: lightgrey;
+	background-color: white;
 } 
 img {
 	display: block;
@@ -69,7 +72,7 @@ img {
 	margin-left:auto;
 	margin-bottom:0;
 	margin-right:auto;
-	background-color: lightgrey;
+	background-color: grey;
 }
 #aboutbody2 {
 	width:500px;
@@ -78,12 +81,17 @@ img {
 	margin-left:auto;
 	margin-bottom:0;
 	margin-right:auto;
-	background-color: lightgrey;
+	background-color: grey;
 }
 #conteudo {
 	margin-left: 19%;
 }
-
+#carouselIndex{
+	width: 65%;
+}
+#sidebar{
+	padding-bottom: 60px;
+}
 
 
 
