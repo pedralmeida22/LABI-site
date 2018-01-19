@@ -24,6 +24,10 @@
 	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
 	<script type="text/javascript" src="map.js"></script>
 	<link rel="stylesheet" href="projeto1.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </head>
 
 <body id="sistemasdearmazenamento">
@@ -265,11 +269,14 @@
 	<p> Com os dados da tabela pode-se concluir que, ao longo dos anos, a dimensão física da disquete tem tendência a diminuir, 
 		inversamente à sua capacidade de armazenamento de dados que vai aumentando.
 	</p>
-	<h5> Sabia que?</h5>
-	<ul>
-		<li> As disquetes foram os primeiros transmissores de vírus de computador.</li> 
-	</ul>	
-	
+	<div>
+	<a data-toggle="popover" title="Sabia que?" data-content="As disquetes foram os primeiros transmissores de vírus de computador."><h4 style="color: blue">Sabia que?</h4></a>
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="popover"]').popover();
+	});
+	</script>
+	</div>
 		<img src="Imagens/disquete.jpg" alt="Disquete" width="300px" height="200px">
 		</br></br>
 		

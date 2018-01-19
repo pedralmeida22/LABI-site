@@ -49,7 +49,7 @@ margin-bottom: 0px;
 }
 
 h4 {
-	color: darkcyan;
+	color: lightseagreen;
 }
 #evolucao {
 	text-align: justify;
@@ -75,13 +75,13 @@ img {
 	background-color: grey;
 }
 #aboutbody2 {
-	width:500px;
+	width:515px;
 	height:650px;
 	margin-top:0;
 	margin-left:auto;
 	margin-bottom:0;
 	margin-right:auto;
-	background-color: grey;
+	background-color:;
 }
 #conteudo {
 	margin-left: 19%;
@@ -93,10 +93,3 @@ img {
 #sidebar{
 	padding-bottom: 60px;
 }
-
-#esfera{
-	
-	shimmer.style.backgroundColor = "transparent";
-	
-}
-
