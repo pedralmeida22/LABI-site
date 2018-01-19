@@ -2,14 +2,16 @@ body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 #index {
+	position: absolute;
 	padding: 0px;
 	background-color: white;
 }
-lightgrey
 footer{
 	text-align: center;
+	position: bottom;
 }
 #jumbotron1 {
+	position: relative;
     margin-bottom: 0px;
     background-color: lightseagreen;
     background-position: 0% 25%;
@@ -18,8 +20,8 @@ footer{
     color: black;
 }
 #jumbotron2 {
-margin-bottom: 0px;
-    margin-left: 18.5%;
+	margin-bottom: 0px;
+    margin-left: 18%;
     background-color: lightseagreen;
     background-position: 0% 25%;
     background-size: cover;
@@ -72,7 +74,7 @@ img {
 	margin-left:auto;
 	margin-bottom:0;
 	margin-right:auto;
-	background-color: grey;
+	background-color: white;
 }
 #aboutbody2 {
 	width:500px;
@@ -81,7 +83,7 @@ img {
 	margin-left:auto;
 	margin-bottom:0;
 	margin-right:auto;
-	background-color: grey;
+	background-color: white;
 }
 #conteudo {
 	margin-left: 19%;
@@ -93,10 +95,3 @@ img {
 #sidebar{
 	padding-bottom: 60px;
 }
-
-#esfera{
-	
-	shimmer.style.backgroundColor = "transparent";
-	
-}
-
