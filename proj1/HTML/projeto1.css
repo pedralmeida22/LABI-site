@@ -86,6 +86,7 @@ img {
 #conteudo {
 	margin-left: 19%;
 }
+<<<<<<< HEAD
 #carouselIndex{
 	width: 65%;
 }
@@ -97,4 +98,12 @@ img {
 
 
 
+=======
+
+#esfera{
+	
+	shimmer.style.backgroundColor = "transparent";
+	
+}
+>>>>>>> 16368324f7c3f89ef31dbe4724f74207372424a7
 
